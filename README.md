@@ -106,7 +106,46 @@ ____
 
 - ## 5. Popíšte vzťah expertného systému a fuzzy regulátora a jeho základnú štruktúru.
 
+### ES
+An expert system is made up of three parts:
+
+**Komunikačny modul** - Toto je systém, ktorý umožňuje neodbornému používateľovi vkladať otázky expertnému systému a dostávať rady. Užívateľské rozhranie je navrhnuté tak, aby bolo čo najjednoduchšie na používanie.
+
+**Báza znalostí** - Toto je zbierka faktov a pravidiel. Báza znalostí je vytvorená z informácií poskytnutých ľudskými odborníkmi.
+
+**Inferenčny mechanizmus** - Toto funguje podobne ako vyhľadávací engine, skúma bázu znalostí pre informácie, ktoré zodpovedajú otázke používateľa.
 ![Lectures - 2023_Страница_030](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/f2d2b10e-2e6e-482f-9252-d953b54552b4)
+
+### FR
+
+**Fuzzifikátor** - Úlohou fuzzifikátora je prevádzať ostre definované vstupné hodnoty na fuzzy hodnoty.
+
+**Fuzzy znalostná báza (BZ)** - Ukladá informácie o všetkých vzťahoch medzi vstupno-výstupnými fuzzy premennými. Obsahuje tiež príslušnostné funkcie, ktoré definujú vstupné premenné pre fuzzy pravidlá a výstupné premenné pre riadený systém.
+
+**Fuzzy pravidlová báza ?** - Ukladá informácie o fungovaní procesu v danom doméne.
+
+**Inferenčný mechanizmus**: Mechanizmus, ktorý vyvodzuje výstupné akcie na základe vstupných podmienok a fuzzy pravidiel. Tento mechanizmus kombinuje informácie z rôznych pravidiel a generuje výstupnú hodnotu príslušnosti pre každú výstupnú premennú.
+
+**Defuzzifikátor** - Úlohou defuzzifikátora je prevádzať fuzzy hodnoty získané z odvozovacieho enginu na ostre definované hodnoty.
+![Lectures - 2023_Страница_032](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/a3582343-8b73-4564-b178-efaf8fd49f73)
+
+#### CHATGPT
+
+Expertný systém je softvérový systém, ktorý simuluje a modeluje rozhodovanie ľudských expertov v konkrétnej oblasti. Je založený na znalostiach, skúsenostiach a pravidlách od odborníkov, ktoré sú reprezentované v podobe bázy znalostí. Expertný systém používa tieto znalosti na analýzu a vyhodnotenie problémov, generovanie odporúčaní a rozhodnutí v danom odbornom dome.
+
+Fuzzy regulátor je systém, ktorý využíva princípy fuzzy logiky a fuzzy množín na riadenie a reguláciu dynamických systémov. Fuzzy regulátor využíva fuzzy pravidlá a inferenčný mechanizmus na generovanie výstupných akcií na základe vstupných podmienok a cieľového správania systému. Používa sa najmä v prípadoch, keď je modelovanie systému ťažké alebo výstupné akcie sú ťažko definovateľné pomocou tradičných presných metód.
+
+Základná štruktúra fuzzy regulátora zahŕňa nasledujúce komponenty:
+
+1. **Fuzzy množiny**: Definícia vstupných premenných a výstupných premenných pomocou fuzzy množín. Fuzzy množiny popisujú nejasnosti a neurčitosti v hodnotách premenných.
+
+2. **Fuzzy pravidlá**: Sada pravidiel, ktoré pripájajú vstupné podmienky k výstupným akciám. Tieto pravidlá sú definované pomocou lingvistických premenných a logických vzťahov medzi nimi.
+
+3. **Inferenčný mechanizmus**: Mechanizmus, ktorý vyvodzuje výstupné akcie na základe vstupných podmienok a fuzzy pravidiel. Tento mechanizmus kombinuje informácie z rôznych pravidiel a generuje výstupnú hodnotu príslušnosti pre každú výstupnú premennú.
+
+4. **Defuzzyfikácia**: Proces konverzie výstupných hodnôt príslušnosti na konkrétne výstupné hodnoty, ktoré sú použiteľné pre riadený systém.
+
+Vzťah medzi expertným systémom a fuzzy regulátorom spočíva v tom, že expertný systém môže poskytovať znalosti a pravidlá pre fuzzy regulátor. **Expertný systém môže byť použitý na vytvorenie bázy znalostí a pravidiel, ktoré sa následne používajú v fuzzy regulátore na riadenie systému. Expertný systém môže tiež poskytnúť spätnú väzbu a aktualizáciu znalostí a pravidiel v fuzzy regulátore na základe skúseností a výsledkov riadenia.**
 
 ____
 
