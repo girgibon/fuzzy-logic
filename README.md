@@ -273,3 +273,8 @@ ____
 - ## 29. Miery neurčitosti fuzzy množín – definícia, vlastnosti a základné typy.
 - ## 30. Fuzzy množiny typu 2 – definícia a využitie v regulácii.
 - ## 31. Metódy k-means, fuzzy c-means a ich porovnanie.
+![Lectures - 2023_Страница_194](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_190](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_191](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_192](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_193](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
