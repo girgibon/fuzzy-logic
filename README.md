@@ -9,7 +9,6 @@ Charakteristiky popisujúce funkciu príslušnosti určujú, ako je priradený s
 ![image](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/b2f8aba0-37d4-449d-b110-29ab3fee0765)
 ![image](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/bea870ad-40b1-4ee2-804a-c7de780e6a6f)
 
-#### CHATGPT:
 1. **Trojuholníková charakteristika**: Táto charakteristika je definovaná pomocou trojuholníka a je často používaná pri aproximácii ostrých hraníc množiny.
 
 2. **Trapezová charakteristika**: Táto charakteristika je podobná trojuholníkovej charakteristike, ale používa sa na modelovanie širších oblastí množiny s postupným prechodom medzi príslušnosťou a nepripradivosťou.
@@ -32,7 +31,6 @@ Hlavnými vlastnosťami lingvistickej premennej sú:
 
 ![Lectures - 2023_Страница_016](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/ccd2d19f-2efb-4ca4-92da-6414815bba0e)
 
-#### CHATGPT
 1. **Univerzum**: Univerzum je súbor všetkých možných hodnôt, ktoré lingvistická premenná môže nadobudnúť. Napríklad, ak hovoríme o premenných ako "teplota" alebo "rýchlosť", univerzum by mohlo byť definované ako interval reálnych čísel.
 
 2. **Príslušnosť**: Každá hodnota v univerze je priradená k niektorej lingvistickej množine. Príslušnosť určuje, do akej miery daná hodnota patrí do danej množiny. Príslušnosť môže byť vyjadrená ako číselný stupeň v intervale medzi 0 a 1.
@@ -48,7 +46,6 @@ ____
 **Operácie s fuzzy množinami sa používajú na manipuláciu a kombinovanie hodnôt fuzzy množín.**
 ![Lectures - 2023_Страница_018](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/45bc99b4-fba8-4f8b-b9c4-3c18210be23c)
 
-#### CHATGPT
 Tu sú základné operácie a ich definície:
 
 1. **Unárna komplementárna operácia**:
@@ -77,7 +74,6 @@ T-normy a T-konormy sú dôležitými operátormi v teórii fuzzy množín, ktor
 ![Lectures - 2023_Страница_025](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/e3fd0c91-d26e-49e5-8db0-786845af6c1c)
 ![Lectures - 2023_Страница_028](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/226a85c5-72cf-467d-a789-24e08b0068ea)
 ![Lectures - 2023_Страница_029](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/cae2e424-c264-43c0-86f3-6f8aa7031b68)
-
 
 **T-norma (t-norm) je binárny operátor, ktorý kombinuje dve hodnoty príslušnosti a generuje výslednú hodnotu príslušnosti**. Niektoré typické t-normy sú:
 
@@ -129,8 +125,6 @@ An expert system is made up of three parts:
 **Defuzzifikátor** - Úlohou defuzzifikátora je prevádzať fuzzy hodnoty získané z odvozovacieho enginu na ostre definované hodnoty.
 ![Lectures - 2023_Страница_032](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/a3582343-8b73-4564-b178-efaf8fd49f73)
 
-#### CHATGPT
-
 Expertný systém je softvérový systém, ktorý simuluje a modeluje rozhodovanie ľudských expertov v konkrétnej oblasti. Je založený na znalostiach, skúsenostiach a pravidlách od odborníkov, ktoré sú reprezentované v podobe bázy znalostí. Expertný systém používa tieto znalosti na analýzu a vyhodnotenie problémov, generovanie odporúčaní a rozhodnutí v danom odbornom dome.
 
 Fuzzy regulátor je systém, ktorý využíva princípy fuzzy logiky a fuzzy množín na riadenie a reguláciu dynamických systémov. Fuzzy regulátor využíva fuzzy pravidlá a inferenčný mechanizmus na generovanie výstupných akcií na základe vstupných podmienok a cieľového správania systému. Používa sa najmä v prípadoch, keď je modelovanie systému ťažké alebo výstupné akcie sú ťažko definovateľné pomocou tradičných presných metód.
@@ -150,9 +144,113 @@ Vzťah medzi expertným systémom a fuzzy regulátorom spočíva v tom, že expe
 ____
 
 - ## 6. Popíšte postup vyhodnocovania fuzzy pravidiel.
+![Lectures - 2023_Страница_042](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/aae27bef-ae79-40c7-ad77-d34661afc7ea)
+![Lectures - 2023_Страница_036](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/c533b117-fc53-4a9f-8502-86d51fe49019)
+![Lectures - 2023_Страница_037](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/5f28ce31-3745-44cd-b423-7292522f9f87)
+
+Postup vyhodnocovania fuzzy pravidiel v fuzzy systéme pozostáva z niekoľkých krokov:
+
+1. **Fuzzifikácia vstupov**: Vstupné hodnoty sú konvertované do tvaru fuzzy množín pomocou príslušných funkcií príslušnosti. Tieto funkcie príslušnosti určujú, do akej miery daná hodnota patrí do jednotlivých fuzzy množín.
+
+2. **Porovnanie fuzzy pravidiel**: Každé fuzzy pravidlo obsahuje vstupné podmienky a výstupnú akciu. Vyhodnocuje sa pravdivosť (spĺňanie) každého fuzzy pravidla na základe hodnôt príslušnosti vstupných podmienok. Používa sa t-norma (napr. minimum) na kombináciu hodnôt príslušnosti vstupných podmienok.
+
+3. **Inferencia**: Vyhodnocuje sa, aká je hodnota pravdivosti (spĺňanie) každého fuzzy pravidla. Táto hodnota pravdivosti sa používa na priraďovanie váh výstupným akciám príslušných pravidiel. Váhy môžu byť napríklad hodnoty príslušnosti výstupných akcií alebo fixné hodnoty definované pre každé pravidlo.
+
+4. **Agregácia výstupov**: Výstupné akcie príslušných pravidiel sa kombinujú pomocou t-konormy (napr. maximálneho operátoru) na získanie výsledných hodnôt príslušnosti pre každú výstupnú premennú. Tieto hodnoty príslušnosti reprezentujú výstupné fuzzy množiny.
+
+5. **Defuzzifikácia**: Výsledné hodnoty príslušnosti sa konvertujú späť na konkrétne hodnoty pomocou defuzzifikačných metód. Tieto metódy môžu byť napríklad ťažisková metóda, stredová metóda alebo vážený priemer.
+
+6. **Výstup**: Výsledné konkrétne hodnoty sú použité ako výstup fuzzy systému pre ďalšie spracovanie alebo akcie riadeného systému.
+
+Tento postup vyhodnocovania fuzzy pravidiel je základným mechanizmom v fuzzy logike a fuzzy systémoch a umožňuje riešiť problémy s neistotou a neurčitosťou.
+
+____
+
 - ## 7. Popíšte úlohu fuzzifikácie a defuzzifikácie a uveďte základné metódy.
+![Lectures - 2023_Страница_041](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3a898b9f-c33d-4f8e-a817-eced5ad3b167)
+![Lectures - 2023_Страница_044](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/d79bc1a0-c8cf-43e7-b5f1-2d21900a2a7b)
+![Lectures - 2023_Страница_045](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/6221ff6e-809c-48ac-9366-c4a528a170ac)
+![Lectures - 2023_Страница_046](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/71593691-936c-4a88-896e-96f2b27d6d03)
+
+Fuzzifikácia a defuzzifikácia sú dva dôležité procesy v rámci operácií s fuzzy množinami. Obe tieto operácie sú nevyhnutné pre prevod medzi konkrétnymi hodnotami a fuzzy hodnotami príslušnosti.
+
+1. **Fuzzifikácia**: Fuzzifikácia je proces konverzie konkrétnych hodnôt na hodnoty príslušnosti v rámci fuzzy množín. Je to proces mapovania vstupných hodnôt do tvaru fuzzy množín. Tento proces zohľadňuje neurčitosť a nejasnosti v hodnotách a reprezentuje ich pomocou funkcií príslušnosti.
+
+Základné metódy fuzzifikácie zahŕňajú:
+
+- **Trojuholníková funkcia príslušnosti**: Vstupná hodnota je mapovaná na trojuholníkovú fuzzy množinu, kde maximálna hodnota príslušnosti je dosiahnutá na vrchole trojuholníka a hodnota príslušnosti sa lineárne mení smerom od vrcholu.
+
+- **Lichoběžníková funkcia príslušnosti**: Vstupná hodnota je mapovaná na lichoběžníkovú fuzzy množinu, kde maximálna hodnota príslušnosti je dosiahnutá v určenom intervale a hodnota príslušnosti je konštantná v tomto intervale.
+
+- **Gaussovská funkcia príslušnosti**: Vstupná hodnota je mapovaná na gaussovskú funkciu príslušnosti, ktorá je charakterizovaná gaussovským tvarom krivky a reprezentuje postupné stúpanie a klesanie hodnoty príslušnosti okolo stredného bodu.
+
+2. **Defuzzifikácia**: Defuzzifikácia je opačný proces fuzzifikácie, ktorý konvertuje fuzzy hodnoty príslušnosti na konkrétne hodnoty. Je to proces mapovania hodnôt príslušnosti na konkrétne hodnoty, aby sa získali jednoznačné výstupné hodnoty.
+
+Základné metódy defuzzifikácie zahŕňajú:
+
+- **Ťažisková metóda**: Táto metóda určuje stredovú hodnotu fuzzy množiny tým, že vypočíta ťažisko (stredový bod) krivky funkcie príslušnosti a použije ho ako výslednú hodnotu.
+
+- **Stredová metóda**: Táto metóda určuje stredovú hodnotu fuzzy množiny ako priemernú hodnotu koncových bodov fuzzy množiny.
+
+- **Vážený priemer**: Táto metóda kombinuje viacero výsledných hodnôt fuzzy množín pomocou váh a vypočíta vážený priemer ako výslednú hodnotu.
+
+Tieto metódy fuzzifikácie a defuzzifikácie umožňujú prevod medzi konkrétnymi hodnotami a fuzzy hodnotami príslušnosti a sú dôležité pri operáciách s fuzzy množinami a fuzzy logikou.
+
+____
+
 - ## 8. Kritériá hodnotenia defuzzifikačných metód.
+![Lectures - 2023_Страница_048](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3688364f-7f96-4861-a4d4-37d0d48dff15)
+![Lectures - 2023_Страница_049](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/becb900a-a3dd-43ac-a626-bd917124f125)
+![Lectures - 2023_Страница_050](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/061055df-5f90-4563-aed0-651af6ad314d)
+![Lectures - 2023_Страница_051](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/f8c7ce2d-8782-46fa-abd6-69f7573924de)
+
+Pri hodnotení defuzzifikačných metód sa zvyčajne berú do úvahy nasledujúce kritériá:
+
+1. **Spojitosť (Continuity)**: Toto kritérium zohľadňuje, do akej miery je výsledná hodnota defuzzifikácie spojitá. Vyššia hodnota kontinuity naznačuje hladšie prechody a menej "skokov" medzi hodnotami.
+
+2. **Jednoznačnosť (Unambiguity)**: Toto kritérium sa týka jednoznačnosti a rozlišovacej schopnosti výslednej hodnoty defuzzifikácie. Vyššia hodnota jednoznačnosti naznačuje, že každej hodnote príslušnosti zodpovedá jednoznačná konkrétna hodnota.
+
+3. **Prijateľnososť (Plausibility)**: Toto kritérium sa zaoberá prijateľnosťou výslednej hodnoty defuzzifikácie z hľadiska očakávaných vlastností systému. Prijateľná hodnota defuzzifikácie by mala zodpovedať logike a očakávaniam danej aplikácie.
+
+4. **Výpočtová náročnosť**: Toto kritérium sa týka náročnosti výpočtových operácií pri použití danej metódy defuzzifikácie. Niektoré metódy môžu vyžadovať zložitejšie výpočty a vyššiu výpočtovú záťaž.
+
+5. **Zohladňovanie prekrytí (Weight Counting)**: Toto kritérium sa týka berúc do úvahy váhy príslušnosti v jednotlivých hodnotách pri defuzzifikácii. Metóda by mala správne zohľadňovať a priradiť vhodné váhy jednotlivým hodnotám príslušnosti.
+
+Pri výbere metódy defuzzifikácie je dôležité zvážiť tieto kritériá a zvoliť metódu, ktorá najlepšie vyhovuje požiadavkám konkrétnej aplikácie a očakávaniam výsledkov. Každá metóda má svoje výhody a obmedzenia, a preto je dôležité zvážiť ich v kontexte daného problému.
+
+____
+
 - ## 9. Základné delenie fuzzy regulátorov a ich stručná charakteristika.
+![Lectures - 2023_Страница_053](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_054](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/defefec5-be20-4ba5-96af-ac17719a3e70)
+![Lectures - 2023_Страница_055](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/c1d3f753-107c-445e-a9f5-5a16f722a206)
+
+
+Fuzzy regulátory môžeme základne rozdeliť na nasledujúce typy:
+
+1. **Mamdaniho fuzzy regulátory**:
+- Charakteristika: Tento typ regulátora je založený na Mamdaniho metóde a využíva pravidlá typu "IF-THEN". Výstupné akcie sú reprezentované fuzzy množinami, ktoré sú kombinované pomocou t-konormy.
+- Výhody: Flexibilita pri modelovaní a interpretácii pravidiel, umožňuje zohľadňovať neurčitosť a nejasnosti vstupných dát.
+- Obmedzenia: Komplexnejšie výpočty, ťažšie ladenie a optimalizácia parametrov.
+
+2. **Takagi-Sugeno-Kang fuzzy regulátory**:
+- Charakteristika: Tento typ regulátora kombinuje fuzzy pravidlá s lineárnymi výstupnými akciami. Každé pravidlo definuje lineárnu funkciu výstupu, a výstup fuzzy regulátora je váženým priemerom týchto lineárnych funkcií.
+- Výhody: Jednoduchšie matematické vyjadrenie, rýchlejšie výpočty, schopnosť pracovať s výstupmi vo forme konkrétnych čísel.
+- Obmedzenia: Menej flexibilný pri modelovaní, obmedzený počet výstupných akcií, menšia schopnosť zohľadňovať neurčitosť.
+
+3. **Fuzzy regulátory typu Singleton**:
+- Charakteristika: Tento typ regulátora používa jednoduché fuzzy pravidlá s vstupnými a výstupnými premennými reprezentovanými ako singletony (jednobodové fuzzy množiny).
+- Výhody: Jednoduchosť implementácie, rýchle výpočty, malé množstvo pravidiel.
+- Obmedzenia: Menej flexibilný pri modelovaní komplexnejších systémov, obmedzená schopnosť zohľadňovať neurčitosť.
+
+4. **Adaptívny fuzzy regulátor**: Adaptívne fuzzy regulátory sa prispôsobujúmeniacim sa podmienkam a zmenám v systéme, ktorý riadia. Tieto regulátory môžu meniť svoje pravidlá, váhy pravidiel alebo parametre funkcií príslušnosti na základe spätnej väzby a adaptívnych algoritmov. Týmto spôsobom môžu adaptívne fuzzy regulátory zlepšovať svoju výkonnosť a prispôsobovať sa meniacim sa podmienkam.
+
+5. **Špeciálne navrhnuté fuzzy regulátory**: Okrem týchto základných typov existuje množstvo špeciálne navrhnutých fuzzy regulátorov, ktoré sa prispôsobujú konkrétnym problémom a aplikáciám. Tieto regulátory môžu obsahovať rôzne štruktúry pravidiel, metódy fuzzifikácie a defuzzifikácie, ako aj iné špecifické vlastnosti, ktoré sú vhodné pre daný 
+
+Tieto typy fuzzy regulátorov majú rôzne vlastnosti a výhody v závislosti od konkrétneho problému a požiadaviek. Výber správneho typu regulátora je dôležitý pre úspešné riadenie systému a dosiahnutie požadovaných výsledkov.
+
+____
+
 - ## 10. Popíšte TSK regulátor – vlastnosti, inferenciu a vzťahy voči Mamdaniho typu.
 - ## 11. Popíšte kritériá hodnotenia bázy pravidiel.
 - ## 12. Popíšte rozdelenie parametrov ovplyvňujúcich inferenciu fuzzy regulátora a čo vieme vyčítať z regulačnej plochy.
