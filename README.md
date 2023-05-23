@@ -273,8 +273,11 @@ ____
 - ## 29. Miery neurčitosti fuzzy množín – definícia, vlastnosti a základné typy.
 - ## 30. Fuzzy množiny typu 2 – definícia a využitie v regulácii.
 - ## 31. Metódy k-means, fuzzy c-means a ich porovnanie.
-![Lectures - 2023_Страница_194](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
-![Lectures - 2023_Страница_190](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
-![Lectures - 2023_Страница_191](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
-![Lectures - 2023_Страница_192](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
-![Lectures - 2023_Страница_193](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3c741e73-1b5b-4b80-9c52-1c31dc03ca57)
+![Lectures - 2023_Страница_194](https://github.com/girgibon/fuzzy-logic/assets/93397589/c5469fe0-26c9-4308-99b9-1797367ff4e1)
+![Lectures - 2023_Страница_190](https://github.com/girgibon/fuzzy-logic/assets/93397589/84efc31d-3504-464f-bcb5-1dc8b0b13c84)
+![Lectures - 2023_Страница_191](https://github.com/girgibon/fuzzy-logic/assets/93397589/86da1091-3e99-47a6-a6d4-e80ba3f9a18e)
+![Lectures - 2023_Страница_192](https://github.com/girgibon/fuzzy-logic/assets/93397589/b4dad203-2c87-42fa-a598-bcf9f353929d)
+![Lectures - 2023_Страница_193](https://github.com/girgibon/fuzzy-logic/assets/93397589/565a2a81-f4f6-4215-9b5a-37e59c1f88db)
+
+
+
