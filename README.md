@@ -620,7 +620,24 @@ ____
 - ## 25. Hranové operátory – použitie, základné typy hranových operácií.
 - ## 26. Systémy pravdivostných hodnôt – Baldwinov systém.
 - ## 27. Multidimenzionálne uvažovanie – prehľad. Mizumotov prístup.
+![Lectures - 2023_Страница_160](https://github.com/girgibon/fuzzy-logic/assets/93397589/eae6cae1-1d73-4437-a864-621dbda3e82a)
+![Lectures - 2023_Страница_161](https://github.com/girgibon/fuzzy-logic/assets/93397589/86b128c7-0d19-461f-978f-a8933ddb42db)
+![Lectures - 2023_Страница_162](https://github.com/girgibon/fuzzy-logic/assets/93397589/2809c0fd-4276-42c5-a3e8-4c34373f5db2)
+![Lectures - 2023_Страница_163](https://github.com/girgibon/fuzzy-logic/assets/93397589/cfc16ad5-b44c-4479-8a15-46468d3e18bc)
+![Lectures - 2023_Страница_164](https://github.com/girgibon/fuzzy-logic/assets/93397589/daed3dd1-65f2-444d-9dbf-3430e5828fcf)
+
 - ## 28. Zhluková analýza – definícia a využitie.
+![Lectures - 2023_Страница_187](https://github.com/girgibon/fuzzy-logic/assets/93397589/2f168b65-1b80-46bb-bc73-9cd900baaa7f)
+![Lectures - 2023_Страница_188](https://github.com/girgibon/fuzzy-logic/assets/93397589/c5834375-ab60-48d0-85da-65186735b961)
+![Lectures - 2023_Страница_189](https://github.com/girgibon/fuzzy-logic/assets/93397589/cf1af9aa-1910-46ce-a4b1-19417856d2e7)
+#### Definícia
+Zhluková analýza je metóda v analýze dát, ktorá sa používa na identifikáciu skupín podobných objektov v dátach. Cieľom zhlukovej analýzy je zoskupiť objekty do zhlukov tak, aby objekty v rámci jedného zhluku boli si podobnejšie ako objekty v iných zhlukoch. Táto analýza je často vykonávaná bez prítomnosti preddefinovaných tried alebo kategórií a je založená na podobnosti medzi objektmi.
+#### Využitie zhlukovej analýzy je rozmanité a nachádza sa v rôznych odvetviach:
+- **Segmentácia trhu:** Zhluková analýza sa používa na segmentáciu zákazníkov na základe ich podobností v správaní, preferenciách alebo demografických údajoch. To umožňuje cieľenejšie zacieliť marketingové kampane a ponúkať prispôsobené produkty a služby pre každý segment.
+- **Biomedicína:** V medicíne a biomedicíne sa zhluková analýza používa na klasifikáciu a skupinovanie genetických profilov, diagnostických obrazov alebo klinických údajov. To môže viesť k identifikácii vzorov alebo skupín chorôb a podporiť vývoj personalizovanej medicíny.
+- **Prieskum dát:** V oblasti prieskumu dát je zhluková analýza dôležitým nástrojom pre objavovanie vzorov, štruktúr a skupín v rozsiahlych dátových súboroch. Pomáha v identifikácii vzťahov a vytváraní hypotéz, ktoré môžu byť neskôr testované.
+- **Obchodná analýza:** Pri analýze predaja, spotrebiteľského správania alebo logistických dát sa zhluková analýza používa na identifikáciu skupín podobných výrobkov, spotrebiteľských skupín alebo distribučných vzorov. Tieto informácie môžu byť využité na optimalizáciu skladových zásob, zlepšenie predaja alebo personalizované odporúčania pre zákazníkov.
+- **Astronómia a geoinformatika:** V týchto oblastiach sa zhluková analýza využíva na identifikáciu galaxií, hviezdnych zhlukov, priestorových vzorov alebo klasifikáciu geografických údajov.
 - ## 29. Miery neurčitosti fuzzy množín – definícia, vlastnosti a základné typy.
 ![Lectures - 2023_Страница_195](https://github.com/girgibon/fuzzy-logic/assets/93397589/2855233a-ae7f-43d2-a45c-87ae3c61d8e2)
 ![Lectures - 2023_Страница_196](https://github.com/girgibon/fuzzy-logic/assets/93397589/e787a346-f180-485f-a3f4-f2994d6296ce)
