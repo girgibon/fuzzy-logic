@@ -622,7 +622,38 @@ ____
 - ## 27. Multidimenzionálne uvažovanie – prehľad. Mizumotov prístup.
 - ## 28. Zhluková analýza – definícia a využitie.
 - ## 29. Miery neurčitosti fuzzy množín – definícia, vlastnosti a základné typy.
+![Lectures - 2023_Страница_195](https://github.com/girgibon/fuzzy-logic/assets/93397589/2855233a-ae7f-43d2-a45c-87ae3c61d8e2)
+![Lectures - 2023_Страница_196](https://github.com/girgibon/fuzzy-logic/assets/93397589/e787a346-f180-485f-a3f4-f2994d6296ce)
+Miera neurčitosti je mierou, ktorá vyjadruje stupeň nejasnosti alebo neurčitosti príslušnosti prvkov do fuzzy množiny.
+![Lectures - 2023_Страница_197](https://github.com/girgibon/fuzzy-logic/assets/93397589/fbd0d5bb-b28b-415e-84ef-2ee3509401b0)
+![Lectures - 2023_Страница_198](https://github.com/girgibon/fuzzy-logic/assets/93397589/b6e020fe-3d73-4818-8f95-85241b1fe828)
+Existuje niekoľko rôznych miar neurčitosti, ktoré sa používajú na kvantifikáciu tejto neurčitosti. 
+#### Tu sú niektoré základné miery neurčitosti:
+- **Entropia:** Entropia je mierou neurčitosti, ktorá sa vypočíta ako suma súčinov pravdepodobností príslušnosti a logaritmických hodnôt príslušnosti. Vyššia hodnota entropie znamená vyššiu neurčitosť. Entropia je často používaná pri fuzzy množinách typu 1.
+- **Variabilita:** Variabilita je mierou neurčitosti, ktorá vyjadruje rozptyl príslušnosti v rámci fuzzy množiny. Vyššia hodnota variability indikuje vyššiu neurčitosť. Variabilita sa používa často pri fuzzy množinách typu 2.
+- **Index neurčitosti:** Index neurčitosti je mierou neurčitosti, ktorý vyjadruje pomer neurčitosti množiny k jej maximálnej neurčitosti. Hodnota indexu neurčitosti sa pohybuje od 0 do 1, pričom hodnota 0 znamená úplnú neurčitosť a hodnota 1 znamená úplnú určitosť.
+- **Šírka a výška funkcie príslušnosti:** Tieto vlastnosti súvisia s tvarom funkcie príslušnosti fuzzy množiny. Vyššia šírka a nižšia výška značia vyššiu neurčitosť.
+#### Vlastnosti miery neurčitosti:
+- **Monotonnosť:** Miera neurčitosti by mala byť monotonná s narastajúcou neurčitosťou fuzzy množiny.
+- **Normalizácia:** Miera neurčitosti by mala byť normalizovaná do určitého rozsahu, napríklad od 0 do 1.
+- **Invariancia voči transformáciám:** Miera neurčitosti by mala byť invariantná voči transformáciám fuzzy množiny, čiže by sa nemala meniť pri zmene mier príslušnosti.
+
+Základné typy miery neurčitosti sa môžu líšiť v spôsobe výpočtu a vlastnostiach. Je dôležité vybrať si vhodnú mieru neurčitosti v závislosti od typu fuzzy množiny a konkrétneho problému, s ktorým sa pracuje.
+![Lectures - 2023_Страница_199](https://github.com/girgibon/fuzzy-logic/assets/93397589/ecca61a2-8d95-4d09-a398-1565239191e8)
+![Lectures - 2023_Страница_200](https://github.com/girgibon/fuzzy-logic/assets/93397589/49ac5ef6-ed38-4d02-ac6e-57b14bfbb75f)
+![Lectures - 2023_Страница_201](https://github.com/girgibon/fuzzy-logic/assets/93397589/60da53c2-dbd3-4ca4-8cbe-b33cb981e211)
+![Lectures - 2023_Страница_202](https://github.com/girgibon/fuzzy-logic/assets/93397589/0066975d-579a-4587-95e4-2bed296403ea)
+
 - ## 30. Fuzzy množiny typu 2 – definícia a využitie v regulácii.
+![Lectures - 2023_Страница_203](https://github.com/girgibon/fuzzy-logic/assets/93397589/a0f38372-535c-4d7e-ac6a-28b5bb4752b7)
+![Lectures - 2023_Страница_204](https://github.com/girgibon/fuzzy-logic/assets/93397589/36f65df4-7525-40e5-82e5-11042d3b4edc)
+![Lectures - 2023_Страница_205](https://github.com/girgibon/fuzzy-logic/assets/93397589/c2c8aaa3-5157-42c1-8f71-0b1750bac94e)
+![Lectures - 2023_Страница_206](https://github.com/girgibon/fuzzy-logic/assets/93397589/78b5e5cb-cafb-4139-b9d6-d4c0b4518864)
+#### Definícia
+Fuzzy množiny typu 2 sú rozšírením klasických fuzzy množín typu 1 a umožňujú zohľadňovať neistotu nielen v príslušnosti prvkov do množiny, ale aj v hodnote príslušnosti. Tieto množiny sú definované pomocou funkcií príslušnosti, ktoré sú množinami funkcií príslušnosti typu 1.
+#### Využitie v regulácii
+Pre využitie fuzzy množín typu 2 v regulácii je potrebné implementovať algoritmy a metódy, ktoré sú schopné pracovať s týmito rozšírenými množinami. Jedným z takýchto algoritmov je napríklad adaptívna inferencia, ktorá dokáže efektívne kombinovať informáciu z rôznych zdrojov a adaptovať sa na meniace sa podmienky. Tento typ regulácie je vhodný pre systémy s vysokou neistotou a nestabilitou.
+![Lectures - 2023_Страница_207](https://github.com/girgibon/fuzzy-logic/assets/93397589/efa5e73a-17a0-4f55-b185-aca69c8805ab)
 - ## 31. Metódy k-means, fuzzy c-means a ich porovnanie.
 ![Lectures - 2023_Страница_194](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3f4083b6-0e5a-4c82-a827-5e9f1077ff9d)
 ![Lectures - 2023_Страница_190](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/9bbf49e6-081f-4342-9b32-9129d86853c1)
