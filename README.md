@@ -252,11 +252,202 @@ Tieto typy fuzzy regulátorov majú rôzne vlastnosti a výhody v závislosti od
 ____
 
 - ## 10. Popíšte TSK regulátor – vlastnosti, inferenciu a vzťahy voči Mamdaniho typu.
+![Lectures - 2023_Страница_057](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/a0b26412-b6a2-4a78-9717-88f389245d57)
+![Lectures - 2023_Страница_058](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/2c62a1be-524c-4b33-a8c0-94667879e9f7)
+
+Takagi-Sugeno-Kang (TSK) regulátor je špecifický typ fuzzy regulátora, ktorý sa líši od tradičného Mamdaniho typu. TSK regulátor je založený na pravidlách s "mamkačovským" modelom, kde výstupné pravidlá sú vyjadrené lineárnymi rovnicami. Tento regulátor má niekoľko charakteristík a vzťahov voči Mamdaniho typu:
+
+1. **Výstupné pravidlá**: V TSK regulátore sú výstupné pravidlá vyjadrené ako lineárne rovnice vstupných premenných. Každá výstupná premenná má svoju lineárnu funkciu, ktorá je určená na základe vstupných podmienok. Tieto rovnice umožňujú priamočiare a analytické vyjadrenie výstupu regulátora.
+
+2. **Defuzzifikácia**: V TSK regulátore sa defuzzifikácia vykonáva jednoduchým vypočítaním váženého priemeru výstupov pravidiel. Váhy pravidiel sa určujú na základe pravdepodobnosti pravidiel a funkcie príslušnosti vstupných hodnôt. Výsledná defuzzifikovaná hodnota je lineárnou kombináciou výstupov pravidiel.
+
+3. **Inferencia**: Inferencia v TSK regulátore je založená na metóde tzv. váženej produkcie, ktorá zohľadňuje hodnoty príslušnosti vstupných hodnôt a váhy pravidiel. Vážená produkcia určuje príspevok každého pravidla k výslednému výstupu na základe týchto faktorov.
+
+4. **Transparentnosť**: TSK regulátor je považovaný za transparentnejší v porovnaní s Mamdaniho regulátorom, pretože výsledné pravidlá sú vyjadrené ako lineárne rovnice. Toto umožňuje jednoduchšiu interpretáciu výstupov a vysvetlenie rozhodnutí pri použití regulátora.
+
+Nasledujúce vlastnosti, inferencia a vzťahy voči Mamdaniho typu podrobne popisujú TSK regulátor:
+
+1. **Vlastnosti TSK regulátora**:
+
+- **Lineárne výstupy**: TSK regulátor reprezentuje výstupy pomocou lineárnych funkcií, nie fuzzy množinami. Každá výstupná premenná má priradenú lineárnu funkciu, ktorá je vyjadrená v závislosti od vstupných podmienok a parametrov.
+
+- **Mamkačovský model**: TSK regulátor používa tzv. "mamkačovský" model, kde pravidlá sa vyjadrujú vo forme "ak- potom" rovníc. Každé pravidlo obsahuje antecedent, ktorý popisuje vstupné podmienky, a konsekvent, ktorý určuje výstupnú hodnotu.
+
+- **Vstupné fuzzy množiny**: Vstupné premenné TSK regulátora sú reprezentované pomocou fuzzy množín s funkciou príslušnosti, podobne ako v Mamdaniho type. Avšak, v TSK regulátore sa vstupné fuzzy množiny nepoužívajú priamo pri inferencii, ale slúžia na vyjadrenie antecedentov pravidiel.
+
+2. **Inferencia v TSK regulátore**:
+
+- **Linguistické pravidlá**: TSK regulátor obsahuje fuzzy pravidlá vo forme linguistických výrazov. Každé pravidlo má vlastný antecedent, ktorý obsahuje podmienky na vstupné premenné, a konsekvent, ktorý určuje výstupnú hodnotu.
+
+- **Váhy pravidiel**: Každé pravidlo v TSK regulátore je priradené váha, ktorá určuje dôležitosť tohto pravidla pri vyhodnocovaní výstupu. Váhy pravidiel môžu byť konštantné alebo môžu sa meniť dynamicky v závislosti od podmienok systému.
+
+- **Výstupná lineárna funkcia**: Výstupné premenné v TSK regulátore majú priradenú lineárnu funkciu, ktorá je vyjadrená v závislosti od vstupných podmienok a parametrov pravidla. Táto lineárna funkcia zohľadňuje príslušnosti antecedentov pravidiel a ich váhy.
+
+V porovnaní s Mamdaniho typom regulátora má TSK regulátor výhodu jednoduchšieho matematického modelu a rýchlejšej inferencie. Je vhodný pre aplikácie, kde je potrebná rýchla a analytická odpoveď na základe vstupných podmienok.
+
+____
+
 - ## 11. Popíšte kritériá hodnotenia bázy pravidiel.
+![Lectures - 2023_Страница_061](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/b88019ac-c179-409b-9ae8-a46c3edaeb52)
+![Lectures - 2023_Страница_062](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/f3cc548b-6846-45c6-939d-95a1681df35b)
+![Lectures - 2023_Страница_063](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/b0d55fa9-1cee-4d7a-8c73-350dd76bb29a)
+![Lectures - 2023_Страница_064](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/ca3267fb-781e-4db7-aa52-1f7ca20c3e1b)
+![Lectures - 2023_Страница_065](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/6aed52b4-3520-4e99-8008-17b5041f7b21)
+![Lectures - 2023_Страница_066](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/b02ff6d8-af8a-4d76-82ae-b55d7540d84c)
+![Lectures - 2023_Страница_067](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/e971cd7f-1631-427c-869f-40a91699f638)
+
+Pri hodnotení bázy pravidiel v fuzzy regulátore sa zvyčajne zohľadňujú nasledujúce kritériá:
+
+1. **Úplnosť**: Úplnosť bázy pravidiel sa vzťahuje na to, do akej miery pokrýva celý priestor vstupných podmienok. Úplná báza pravidiel zahŕňa pravidlá pre všetky možné kombinácie vstupných podmienok. Vysoká úplnosť zaručuje, že systém dokáže správne reagovať na všetky vstupné situácie.
+
+2. **Konzistentnosť (neprotirečivosť)**: Konzistentnosť bázy pravidiel zabezpečuje, že pravidlá sú navzájom kompatibilné a nevedú k protirečivým výstupom. Pravidlá by nemali byť v rozpore s inými pravidlami a výsledky inferencie by mali byť logicky konzistentné.
+
+3. **Spojitosť**: Spojitosť bázy pravidiel sa týka plynulosti prechodu medzi jednotlivými pravidlami. Spojitá báza pravidiel zabezpečuje, že zmeny vstupných hodnôt vedú k plynulým a očakávaným zmenám výstupných hodnôt. Spojitosť je dôležitá pre správne riadenie systému a eliminuje nežiaduce skoky alebo diskontinuity v hodnotách výstupu.
+
+Tieto kritériá hodnotenia bázy pravidiel majú za cieľ zabezpečiť správne fungovanie fuzzy regulátora a kvalitné riadenie systému. Úplná, konzistentná a spojitá báza pravidiel je dôležitá pre správne inferencie a generovanie presných výstupov. Pri návrhu a hodnotení bázy pravidiel je potrebné venovať pozornosť týmto kritériám a prispôsobiť ich konkrétnym požiadavkám a charakteristikám riadeného systému.
+
+____
+
 - ## 12. Popíšte rozdelenie parametrov ovplyvňujúcich inferenciu fuzzy regulátora a čo vieme vyčítať z regulačnej plochy.
+![Lectures - 2023_Страница_069](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/5958fbe0-2d13-49d4-9198-c9356156fdf8)
+![Lectures - 2023_Страница_075](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/46b93eb7-7dff-4915-ae17-69101d948b8b)
+
+Inferencia v fuzzy regulátoroch je ovplyvnená rôznymi parametrami, ktoré môžeme rozdeliť do nasledujúcich kategórií:
+
+1. **Parametre pravidiel**: Tieto parametre sa vzťahujú k jednotlivým pravidlám v báze pravidiel. Zahrňujú prahové hodnoty, funkcie príslušnosti pre vstupy a výstupy, váhy pravidiel a metódy inferencie. Tieto parametre určujú, ako sú vstupy kombinované a spracované v rámci fuzzy regulátora a aký výstup je generovaný.
+
+2. **Parametre funkcií príslušnosti**: Funkcie príslušnosti opisujú príslušnosť jednotlivých hodnôt ku fuzzy množinám. Parametre týchto funkcií, ako sú stred, šírka, vrcholová hodnota atď., ovplyvňujú tvar a priebeh funkcie príslušnosti. Zmena týchto parametrov ovplyvňuje interpretáciu hodnôt vstupov a môže mať vplyv na inferenciu.
+
+3. **Parametre defuzzifikácie**: Pri defuzzifikácii sa generované fuzzy výstupy prevedú na konkrétne číselné hodnoty. Parametre defuzzifikačných metód, ako sú váhové funkcie, centroidy, výberové pravidlá a podobne, ovplyvňujú presnosť a správnosť výsledných hodnôt defuzzifikácie.
+
+Regulačná plocha v rámci fuzzy regulátora obsahuje informácie o vzťahu medzi vstupmi a výstupmi. Z tejto plochy je možné vyčítať nasledujúce informácie:
+
+1. **Vzťahy medzi vstupmi a výstupmi**: Regulačná plocha ukazuje, ako sa mení výstup v závislosti od zmien vstupných hodnôt. Z plochy je možné získať informácie o tom, aké vstupné kombinácie vedú k akým výstupným hodnotám. To umožňuje pochopenie vzťahov a trendov v riadenom systéme.
+
+2. **Stabilita systému**: Z regulačnej plochy je možné odvodiť informácie o stabilite systému. Ak je regulačná plocha hladká a kontinuálna, naznačuje to stabilitu a správne riadenie. Naopak, prudké zmeny a nekonzistentné hodnoty na ploche môžu naznačovať nestabilitu systému.
+
+3. **Dynamika systému**: Regulačná plocha môže poskytnúť informácie o dynamike systému. Zmeny v tvaroch a rozsahu plochy môžu naznačovať, ako systém reaguje na rôzne vstupné podmienky a aké sú jeho charakteristické vlastnosti.
+
+Regulačná plocha a parametre fuzzy regulátora sú dôležitými nástrojmi pri analýze a návrhu fuzzy riadiacich systémov. Z týchto informácií môžeme získať cenné poznatky o riadenom systéme a prispôsobiť parametre regulátora pre dosiahnutie želaného riadenia.
+
+____
+
 - ## 13. Popíšte niektoré základné zákonitosti vplyvu funkcií príslušnosti na inferenčný proces fuzzy regulátora.
+
+Funkcie príslušnosti majú významný vplyv na inferenčný proces fuzzy regulátora. Niektoré základné zákonitosti týkajúce sa tohto vplyvu sú:
+
+1. **Úplnosť pokrytia**: Funkcie príslušnosti by mali byť navrhnuté tak, aby správne pokrývali celý priestor vstupných hodnôt. Ak niektoré oblasti priestoru nie sú dostatočne pokryté, môže dôjsť k stratám informácií a chýbajúcim inferenčným možnostiam. Dôležité je zabezpečiť, aby všetky relevantné hodnoty vstupov mali priradené príslušnosti v rámci funkcií príslušnosti.
+
+2. **Prekrývanie funkcií príslušnosti**: Prekrývanie funkcií príslušnosti je dôležité pre hladký prechod medzi hodnotami. Ak existuje priestor prekrývania medzi susednými funkciami príslušnosti, umožňuje to plynulé prechody v inferenčnom procese. Toto prekrývanie zabezpečuje kontinuitu a spojitosť výsledkov inferencie pri meniacich sa hodnotách vstupov.
+
+3. **Vzdialenosť medzi centrami**: Vzdialenosť medzi centrami funkcií príslušnosti ovplyvňuje dôležitosť jednotlivých funkcií pri vyhodnocovaní pravidiel. Väčšia vzdialenosť medzi centrami znamená väčšiu odlišnosť medzi pravidlami a ich váhami, čo môže mať vplyv na výsledky inferencie. Pri návrhu funkcií príslušnosti je dôležité zvážiť vhodnú vzdialenosť medzi centrami na základe špecifík riadeného systému.
+
+4. **Šírka funkcií príslušnosti**: Šírka funkcií príslušnosti ovplyvňuje rozsah, v ktorom je pravidlo aktívne. Väčšia šírka umožňuje pravidlám byť aktívnymi pre širšie rozsahy hodnôt, čo môže viesť k väčšej generalizácii a robustnosti. Naopak, užšie funkcie príslušnosti umožňujú lepšie prispôsobenie sa konkrétnym hodnotám vstupov.
+
+5. **Tvar funkcií príslušnosti**: Tvar funkcií príslušnosti zohľadňuje charakteristické vlastnosti vstupných premenných. Rôzne tvary, ako napríklad trojuholníkové, trapezoidálne alebo gausiánové funkcie príslušnosti, majú rôzne vlastnosti a vhodnosť pre konkrétne aplikácie. Správny výber tvaru funkcií príslušnosti môže viesť k lepším výsledkom inferencie.
+
+6. **Overlapovanie**: Overlapovanie funkcií príslušnosti je kľúčovým aspektom inferenčného procesu. Ak majú funkcie príslušnosti pre rôzne fuzzy množiny vstupov prekrývajúce sa oblasti, umožňuje to efektívnejšie vyhodnocovanie pravidiel, pretože jedno pravidlo môže mať vplyv na viacero fuzzy množín.
+
+7. **Symetria**: Symetrické funkcie príslušnosti, ako napríklad trojuholníkové alebo gaussové funkcie, sú často používané, pretože umožňujú intuitívne vyjadrenie vzťahu medzi vstupmi a výstupmi.
+
+8. **Hranice a špičky**: Hranice funkcií príslušnosti určujú presnosť a rozlíšenie medzi rôznymi vstupnými hodnotami. Ostrejšie hrany môžu poskytnúť väčšiu presnosť a odlíšenie medzi hodnotami, zatiaľ čo mäkšie hrany môžu poskytnúť plynulejšiu a kontinuálnu reakciu na vstupy.
+
+9. **Váhy pravidiel**: Váhy pravidiel určujú dôležitosť jednotlivých pravidiel pri inferencii. Funkcie príslušnosti môžu ovplyvňovať výpočet váh pravidiel a ich správnu interpretáciu. Napríklad, ak funkcie príslušnosti majú vyššiu hodnotu v určitom intervale, môže to viesť k vyššej váhe pravidla pre daný interval.
+
+10. **Kombinácia pravidiel**: V prípade, že sa viacero pravidiel aplikuje na dané vstupy, je potrebné zvoliť vhodnú metódu kombinácie týchto pravidiel. Možnosti zahŕňajú metódy minima, maxima, priemeru, váženého priemeru a iné. Voľba tejto metódy môže ovplyvniť výslednú inferenciu a výstup fuzzy regulátora.
+
+Správny výber a konfigurácia funkcií príslušnosti s ohľadom na tieto zákonitosti je kľúčový pre efektívnu a presnú inferenciu v fuzzy regulátoroch. Je dôležité experimentovať, testovať a prispôsobovať funkcie príslušnosti tak, aby čo najlepšie reprezentovali charakteristiku a vzťahy v riadenom systéme.
+
+____
+
 - ## 14. Popíšte manuálny postup návrhu fuzzy regulátora.
+
+Manuálny postup návrhu fuzzy regulátora je proces, ktorý umožňuje vytvoriť a naladiť fuzzy regulátor na základe expertných znalostí a skúseností s riadeným systémom. Nasleduje podrobný popis tohto postupu:
+
+1. **Štádium analýzy a modelovania**:
+- Zozbieranie informácií o riadenom systéme, jeho vstupoch, výstupoch a ich vzťahoch. Tieto informácie môžu pochádzať z fyzikálnych zákonov, experimentov, meraní atď.
+- Identifikácia dôležitých premenných a parametrov, ktoré ovplyvňujú chovanie systému.
+- Vytvorenie matematického modelu riadeného systému, ktorý popisuje jeho dynamiku a vzťah medzi vstupmi a výstupmi.
+
+2. **Štádium fuzzifikácie**:
+- Určenie fuzzy množín pre jednotlivé vstupné a výstupné premenné. Tieto množiny by mali pokrývať celý rozsah hodnôt a zohľadňovať expertné znalosti o riadenom systéme.
+- Definícia funkcií príslušnosti pre jednotlivé fuzzy množiny. Funkcie príslušnosti by mali odzrkadľovať expertné znalosti a zohľadňovať charakteristiku a vzťahy v riadenom systéme.
+- Priradenie konkrétnych hodnôt vstupov a výstupov k jednotlivým funkciám príslušnosti.
+
+3. **Štádium tvorby bázy pravidiel**:
+- Identifikácia relevantných pravidiel na základe expertných znalostí. Tieto pravidlá sú tvorené kombináciou vstupných fuzzy množín a príslušných výstupných akcií.
+- Priradenie váh pravidlám, ktoré určujú ich dôležitosť a vplyv na inferenčný proces.
+
+4. **Štádium inferencie**:
+- Vyhodnotenie pravidiel na základe aktuálnych vstupných hodnôt. Váhy pravidiel a hodnoty funkcií príslušnosti sú použité na určenie príslušnosti vstupov k jednotlivým pravidlám a výpočet výstupných hodnôt.
+
+5. **Štádium defuzzifikácie**:
+- Prevedenie fuzzy výstupov na konkrétne číselné hodnoty.
+- Použitie metód defuzzifikácie, ako je napríklad vážený priemer, centroid, metóda najvyššej hodnoty, na výpočet jednej číselnej hodnoty výstupu.
+
+6. **Ladene a optimalizácia**:
+- Experimentovanie s rôznymi hodnotami funkcií príslušnosti, váh pravidiel a iných parametrov na dosiahnutie požadovaného správania systému.
+- Analýza a porovnávanie výsledkov s referenčnými hodnotami alebo žiadaným správaním systému.
+- Prispôsobovanie a optimalizácia parametrov fuzzy regulátora na základe získaných výsledkov a spätnoväzbových informácií.
+
+Tento manuálny postup vyžaduje expertné znalosti a skúsenosti s riadeným systémom. Pravidlá, funkcie príslušnosti a ďalšie parametre regulátora sú definované manuálne na základe znalostí o systéme a jeho požadovanom správaní. Postupne sa experimentuje, testuje a optimalizuje hodnoty parametrov, aby sa dosiahol požadovaný výkon regulátora vzhľadom na riadený systém.
+
+____
+
 - ## 15. Typy adaptačných mechanizmov a priama adaptácia fuzzy systémov – štruktúra a základne delenie.
+![Lectures - 2023_Страница_076](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/63d2cfd3-1952-4514-9c25-128dd29d10bd)
+![Lectures - 2023_Страница_077](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/27f64712-53e5-4dea-ad96-273c9074afcc)
+![Lectures - 2023_Страница_078](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/d2946545-38c1-4a0e-87f0-3ad5acbae09b)
+![Lectures - 2023_Страница_079](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/eb44b6df-8885-42b0-ab39-20476d206b23)
+
+Adaptačné mechanizmy v rámci fuzzy systémov umožňujú automatickú úpravu parametrov regulátora na základe spätnoväzbových informácií a optimalizáciu jeho výkonu. Existujú dva hlavné typy adaptačných mechanizmov: self-tuning (samo-nastavovacie) a self-organizing (samo-organizujúce) mechanizmy. Okrem toho, priama adaptácia fuzzy systémov umožňuje priame určovanie parametrov na základe rôznych metód.
+
+1. **Self-tuning (samo-nastavovacie) mechanizmy**:
+
+- Metóda gradientu: Využíva gradientnú optimalizáciu na aktualizáciu parametrov regulátora. Výpočet gradientu sa vykonáva na základe chyby medzi požadovaným a skutočným výstupom, a následne sa upravia váhy a parametre regulátora.
+- Metóda najmenších štvorcov: Používa sa na minimalizáciu kvadratickej chyby medzi odozvou systému a požadovaným výstupom. Na základe tejto minimalizácie sa aktualizujú parametre regulátora.
+- Genetické algoritmy: Využívajú evolučné metódy a princípy prírodnej selekcie na optimalizáciu parametrov regulátora. Rôzne kombinácie a mutácie parametrov sú testované a hodnotené na základe predom definovaných kritérií.
+
+2. **Self-organizing (samo-organizujúce) mechanizmy**:
+
+- Neurónové siete: Sú založené na modeloch biologických neurónov a ich vzájomnej interakcii. Sú schopné adaptovať váhy a parametre na základe spätnoväzbových informácií. Neurónové siete môžu byť použité na učenie a predikciu vzťahov medzi vstupmi a výstupmi.
+- Klastrovanie: Používa sa na identifikáciu vzorov a zoskupenie podobných príkladov. Pomocou klastrovania je možné adaptovať pravidlá fuzzy systému na základe znalostí získaných zo vstupných dát.
+- Adaptívne metódy rozdelenia: Využívajú dynamické pridávanie a odstraňovanie pravidiel a fuzzy množín na základe zmeny okolia a potreby presnosti výstupu. Tieto metódy sú schopné adaptovať štruktúru fuzzy systému na základe aktuálnych podmienok.
+
+1. **Štruktúra priamej adaptácie fuzzy systémov**:
+
+- Vstupy: Vstupné signály systému, ktoré sú použité na výpočet výstupov regulátora.
+- Fuzzy regulátor: Obsahuje fuzzy množiny, funkcie príslušnosti, bázu pravidiel a adaptačné mechanizmy.
+- Výstupy: Výstupné signály regulátora, ktoré sú použité na riadenie riadeného systému.
+- Riadený systém: Systém, ktorý má byť riadený a na ktorý pôsobia výstupy fuzzy regulátora.
+
+2. **Základné delenie priamej adaptácie fuzzy systémov**:
+
+a) **Metódy založené na identifikácii**:
+- Používajú sa pre odhad parametrov fuzzy regulátora na základe vstupno-výstupných dát z riadeného systému.
+- Vykonáva sa identifikácia parametrov na základe optimalizačných techník, ako je napríklad metóda najmenších štvorcov, genetické algoritmy, rojové algoritmy, atď.
+- Identifikované parametre sú následne použité pre aktualizáciu parametrov fuzzy regulátora.
+
+b) **Metódy založené na spätnoväzbe**:
+- Používajú sa na aktualizáciu parametrov fuzzy regulátora na základe spätnoväzbových informácií z riadeného systému.
+- Získané spätnoväzbové informácie sú použité na výpočet chyby regulácie, ktorá slúži ako vstup pre adaptačný mechanizmus.
+- Adaptačný mechanizmus aktualizuje parametre fuzzy regulátora na základe chyby regulácie a prispôsobuje ich, aby sa minimalizovala táto chyba.
+
+Priama adaptácia fuzzy systémov umožňuje priame určovanie parametrov regulátora na základe rôznych metód. Niektoré z týchto metód zahŕňajú:
+
+- Inkrementálne modely (Jacobian): Využívajú derivácie a parciálne diferenciácie na výpočet zmien parametrov regulátora vzhľadom k zmene vstupov alebo výstupov systému.
+- Gradientové modely: Využívajú gradientné metódy na určenie zmien parametrov regulátora na základe cieľovej funkcie a gradientu tejto funkcie.
+- Štatistické modely: Využívajú štatistické metódy a algoritmy na identifikáciu a adaptáciu parametrov regulátora na základe vzorcov a trendov v dátach.
+- Interpolačné modely: Využívajú interpoláciu a aproximáciu na určenie hodnôt parametrov regulátora medzi existujúcimi vzorkami alebo pravidlami.
+- Symbolické výpočty: Využívajú symbolické metódy a výrazy na určenie parametrov regulátora na základe vzťahov a rovníc popisujúcich riadený systém.
+- Genetické algoritmy: Využívajú evolučné metódy a genetické operátory na optimalizáciu parametrov regulátora na základe kritérií fitness a prirodzeného výberu.
+
+Tieto adaptívne metódy a priame adaptácie poskytujú možnosti automatickej úpravy parametrov a štruktúry fuzzy systémov na základe aktuálnych podmienok a potrieb riadeného systému.
+
+Priama adaptácia fuzzy systémov je užitočným nástrojom na automatické naladenie parametrov regulátora na základe skutočných podmienok riadeného systému. Je vhodná pre situácie, kde nie je k dispozícii presný model systému alebo sa systém mení v čase.
+
+____
+
 - ## 16. Procyk-Mamdaniho samoorganizačný fuzzy regulátor – štruktúra, postup vyhodnocovania a základné adaptačné pravidlo. Gradientové prístupy adaptácie.
 - ## 17. Spôsoby implementácie základného adaptačného pravidla Procyk-Mamdaniho samoorganizačného fuzzy regulátora a porovnanie ich vlastností. Odpratávač odpadkov.
 - ## 18. Fuzzy relácie – definícia, operácie a prepis znalostí z produkčných pravidiel do fuzzy relácie.
