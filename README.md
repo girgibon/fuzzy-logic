@@ -617,14 +617,75 @@ ____
 - ## 22. Implikátory, ich vzťah k vlastnej inferencii a základné typy implikátorov.
 - ## 23. Metódy modus ponens a modus tollens a ich všeobecná forma.
 - ## 24. Relácie podobnosti a metóda piatich najbližších susedov.
+#### Relácie podobnosti
+![Lectures - 2023_Страница_148](https://github.com/girgibon/fuzzy-logic/assets/93397589/0fdb31ef-bb52-4b7d-9b6a-81a2aa9bf0c7)
+![Lectures - 2023_Страница_149](https://github.com/girgibon/fuzzy-logic/assets/93397589/5fa08a76-6068-4a6d-9c35-75ded2a0345b)
+![Lectures - 2023_Страница_150](https://github.com/girgibon/fuzzy-logic/assets/93397589/d02c5e33-b4c7-4960-b63b-bfa635ec0861)
+![Lectures - 2023_Страница_151](https://github.com/girgibon/fuzzy-logic/assets/93397589/208b3978-99e3-4f40-9c5c-19e0f3c9278a)
+
+Relácie podobnosti sú nástrojom na vyjadrenie podobnosti medzi objektmi alebo dátami. V rôznych oblastiach, ako je strojové učenie, rozpoznávanie vzorov, spracovanie obrazu a textové analýzy, sa používajú rôzne metriky podobnosti na meranie a vyhodnocovanie podobnosti.
+#### Metóda piatich najbližších susedov
+![Lectures - 2023_Страница_152](https://github.com/girgibon/fuzzy-logic/assets/93397589/0ba9e074-a4da-4c6c-948e-882f37e9b9ca)
+![Lectures - 2023_Страница_153](https://github.com/girgibon/fuzzy-logic/assets/93397589/525e50b7-c8a4-4ded-8d42-009e21c5a4d5)
+![Lectures - 2023_Страница_154](https://github.com/girgibon/fuzzy-logic/assets/93397589/41c90eb7-c76f-4e13-9663-393c9853f228)
+
+Metóda piatich najbližších susedov (k-nn) je jednou z najjednoduchších a najpoužívanejších metód na základe relácií podobnosti. Táto metóda sa často používa na klasifikáciu alebo regresiu dát.
+
+Princíp metódy piatich najbližších susedov spočíva v tom, že pre daný vstupný vzor sa vyhľadá k najbližších susedov z trénovacej sady na základe nejakej metriky podobnosti, napríklad Euklidovskej vzdialenosti. Následne sa zohľadňujú triedy alebo hodnoty týchto najbližších susedov na rozhodnutie o triede alebo hodnote vstupného vzoru.
+
+#### Postup metódy piatich najbližších susedov je nasledovný:
+- Vstupnému vzoru sa vyhľadajú k najbližších susedov z trénovacej sady na základe zvolenej metriky podobnosti.
+
+- Pre každého z týchto najbližších susedov sa zistí trieda (pre klasifikáciu) alebo hodnota (pre regresiu).
+
+- Na základe tried alebo hodnôt týchto najbližších susedov sa rozhodne o triede alebo hodnote vstupného vzoru. Napríklad, v prípade klasifikácie môže sa použiť hlasovanie väčšiny, kde trieda s najväčším počtom najbližších susedov je priradená k vstupnému vzoru.
+____
+
 - ## 25. Hranové operátory – použitie, základné typy hranových operácií.
+![Lectures - 2023_Страница_155](https://github.com/girgibon/fuzzy-logic/assets/93397589/c2c9df51-4d68-41a1-a4ac-401530e3cdf0)
+#### Hranové operátory
+Hranové operátory sú matematické operácie, ktoré sa používajú na detekciu hrán v obraze alebo signáli. Sú založené na zmenách intenzity alebo hodnoty signálu v okolí pixelov alebo bodov v obraze. 
+#### Použitie
+Hranové operátory sa používajú v rôznych oblastiach, ako je spracovanie obrazu, analýza obrazu, počítačové videnie a spracovanie signálov.
+#### Základné typy hranových operácií.
+![Lectures - 2023_Страница_156](https://github.com/girgibon/fuzzy-logic/assets/93397589/e8ed9cbd-d757-4bef-aa5b-84ffceaf943e)
+![Lectures - 2023_Страница_157](https://github.com/girgibon/fuzzy-logic/assets/93397589/5fe863ae-56ed-432f-88d6-b1a370eaa61b)
+#### Typy modifikačných funkcií $`f_H`$:
+![Lectures - 2023_Страница_158](https://github.com/girgibon/fuzzy-logic/assets/93397589/bf83bec3-84aa-4c8d-b35a-ac768b1663f6)
+![Lectures - 2023_Страница_159](https://github.com/girgibon/fuzzy-logic/assets/93397589/d89eaefd-8a90-4f8c-854d-365d83cff916)
+
+____
+
 - ## 26. Systémy pravdivostných hodnôt – Baldwinov systém.
+![Lectures - 2023_Страница_178](https://github.com/girgibon/fuzzy-logic/assets/93397589/db90d5b1-7d8c-41c0-9bda-a89fe5c6a2ca)
+![Lectures - 2023_Страница_179](https://github.com/girgibon/fuzzy-logic/assets/93397589/948c044a-32ab-4a6a-97db-6d6e0f28b8c1)
+#### Systémy pravdivostných hodnôt
+Systémy pravdivostných hodnôt (SPH) sú logické formálne systémy, ktoré sa zaoberajú pravdivosťou výrokových formúlí. Jedným z takýchto systémov je Baldwinov systém, ktorý bol vyvinutý anglickým logikom Johnom W. Baldwinom.
+![Lectures - 2023_Страница_180](https://github.com/girgibon/fuzzy-logic/assets/93397589/14e5ebb1-eb27-4745-a567-74be41ce14ec)
+![Lectures - 2023_Страница_181](https://github.com/girgibon/fuzzy-logic/assets/93397589/9f6c0b2a-a077-48d4-a9df-0713512fa347)
+![Lectures - 2023_Страница_182](https://github.com/girgibon/fuzzy-logic/assets/93397589/35b03025-6f75-4600-b420-62ea9c4791bd)
+#### Baldwinov systém
+Baldwinov systém je axiomatický formálny systém, ktorý poskytuje pravidlá na odvodenie pravdivostných hodnôt výrokových formúlí. Systém je založený na logických operáciách ako konjunkcia, disjunkcia, negácia a implikácia. Systém definuje axiómy a odvodzovacie pravidlá, ktoré umožňujú postupne odvodiť pravdivostné hodnoty výrokových formúlí.
+
+Baldwinov systém má niekoľko vlastností, medzi ktoré patria:
+- **Kombinácia logických operácií:** Baldwinov systém umožňuje kombináciu rôznych logických operácií na tvorbu výrokových formúlí. Tieto operácie môžu byť aplikované na výrokové premenné, konkrétne výroky alebo kombinácie výrokových formúlí.
+- **Axiómy a odvodzovacie pravidlá:** Systém definuje základné axiómy, ktoré sú východiskom pre odvodenie pravdivostných hodnôt výrokových formúlí. Okrem axiómov systém poskytuje aj odvodzovacie pravidlá, ktoré sa používajú na postupné odvodenie pravdivostných hodnôt.
+- **Pravidlá inferencie:** Baldwinov systém poskytuje pravidlá inferencie, ktoré umožňujú vyvodzovanie pravdivostných hodnôt výrokových formúlí na základe existujúcich pravdivostných hodnôt a logických operácií.
+
+____
+
 - ## 27. Multidimenzionálne uvažovanie – prehľad. Mizumotov prístup.
 ![Lectures - 2023_Страница_160](https://github.com/girgibon/fuzzy-logic/assets/93397589/eae6cae1-1d73-4437-a864-621dbda3e82a)
 ![Lectures - 2023_Страница_161](https://github.com/girgibon/fuzzy-logic/assets/93397589/86b128c7-0d19-461f-978f-a8933ddb42db)
+#### Prehľad
+Multidimenzionálne uvažovanie je prístup v analýze dát, ktorý sa zameriava na manipuláciu a vizualizáciu dát v priestore s viacerými dimenziami. V tradičnom prístupe sa často pracuje s dátami v dvojrozmerných tabuľkách, čo môže obmedzovať schopnosť odhaliť zložité vzťahy a štruktúry v dátach. Multidimenzionálne uvažovanie sa snaží prekonať tieto obmedzenia a poskytuje lepšiu predstavu o vzťahoch medzi viacerými premennými.
 ![Lectures - 2023_Страница_162](https://github.com/girgibon/fuzzy-logic/assets/93397589/2809c0fd-4276-42c5-a3e8-4c34373f5db2)
 ![Lectures - 2023_Страница_163](https://github.com/girgibon/fuzzy-logic/assets/93397589/cfc16ad5-b44c-4479-8a15-46468d3e18bc)
 ![Lectures - 2023_Страница_164](https://github.com/girgibon/fuzzy-logic/assets/93397589/daed3dd1-65f2-444d-9dbf-3430e5828fcf)
+#### Mizumotov prístup
+V rámci multidimenzionálneho uvažovania existuje viacero prístupov a metód. Jedným z týchto prístupov je Mizumotov prístup, ktorý je založený na princípe "Stromového zobrazenia" (Tree Map). Mizumotov prístup kombinuje hierarchickú štruktúru dát s vizuálnou reprezentáciou, čo umožňuje zobraziť a analyzovať viacero dimenzií dát naraz.
+
+____
 
 - ## 28. Zhluková analýza – definícia a využitie.
 ![Lectures - 2023_Страница_187](https://github.com/girgibon/fuzzy-logic/assets/93397589/2f168b65-1b80-46bb-bc73-9cd900baaa7f)
@@ -638,6 +699,9 @@ Zhluková analýza je metóda v analýze dát, ktorá sa používa na identifik�
 - **Prieskum dát:** V oblasti prieskumu dát je zhluková analýza dôležitým nástrojom pre objavovanie vzorov, štruktúr a skupín v rozsiahlych dátových súboroch. Pomáha v identifikácii vzťahov a vytváraní hypotéz, ktoré môžu byť neskôr testované.
 - **Obchodná analýza:** Pri analýze predaja, spotrebiteľského správania alebo logistických dát sa zhluková analýza používa na identifikáciu skupín podobných výrobkov, spotrebiteľských skupín alebo distribučných vzorov. Tieto informácie môžu byť využité na optimalizáciu skladových zásob, zlepšenie predaja alebo personalizované odporúčania pre zákazníkov.
 - **Astronómia a geoinformatika:** V týchto oblastiach sa zhluková analýza využíva na identifikáciu galaxií, hviezdnych zhlukov, priestorových vzorov alebo klasifikáciu geografických údajov.
+
+____
+
 - ## 29. Miery neurčitosti fuzzy množín – definícia, vlastnosti a základné typy.
 ![Lectures - 2023_Страница_195](https://github.com/girgibon/fuzzy-logic/assets/93397589/2855233a-ae7f-43d2-a45c-87ae3c61d8e2)
 ![Lectures - 2023_Страница_196](https://github.com/girgibon/fuzzy-logic/assets/93397589/e787a346-f180-485f-a3f4-f2994d6296ce)
@@ -661,6 +725,8 @@ Základné typy miery neurčitosti sa môžu líšiť v spôsobe výpočtu a vla
 ![Lectures - 2023_Страница_201](https://github.com/girgibon/fuzzy-logic/assets/93397589/60da53c2-dbd3-4ca4-8cbe-b33cb981e211)
 ![Lectures - 2023_Страница_202](https://github.com/girgibon/fuzzy-logic/assets/93397589/0066975d-579a-4587-95e4-2bed296403ea)
 
+____
+
 - ## 30. Fuzzy množiny typu 2 – definícia a využitie v regulácii.
 ![Lectures - 2023_Страница_203](https://github.com/girgibon/fuzzy-logic/assets/93397589/a0f38372-535c-4d7e-ac6a-28b5bb4752b7)
 ![Lectures - 2023_Страница_204](https://github.com/girgibon/fuzzy-logic/assets/93397589/36f65df4-7525-40e5-82e5-11042d3b4edc)
@@ -671,6 +737,9 @@ Fuzzy množiny typu 2 sú rozšírením klasických fuzzy množín typu 1 a umo�
 #### Využitie v regulácii
 Pre využitie fuzzy množín typu 2 v regulácii je potrebné implementovať algoritmy a metódy, ktoré sú schopné pracovať s týmito rozšírenými množinami. Jedným z takýchto algoritmov je napríklad adaptívna inferencia, ktorá dokáže efektívne kombinovať informáciu z rôznych zdrojov a adaptovať sa na meniace sa podmienky. Tento typ regulácie je vhodný pre systémy s vysokou neistotou a nestabilitou.
 ![Lectures - 2023_Страница_207](https://github.com/girgibon/fuzzy-logic/assets/93397589/efa5e73a-17a0-4f55-b185-aca69c8805ab)
+
+____
+
 - ## 31. Metódy k-means, fuzzy c-means a ich porovnanie.
 ![Lectures - 2023_Страница_194](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/3f4083b6-0e5a-4c82-a827-5e9f1077ff9d)
 ![Lectures - 2023_Страница_190](https://github.com/CoolmixZero/fuzzy-logic/assets/107999456/9bbf49e6-081f-4342-9b32-9129d86853c1)
