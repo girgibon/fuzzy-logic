@@ -614,8 +614,47 @@ Manuálny návrh FKM vyžaduje doménovú znalosť a skúsenosti s daným systé
 ____
 
 - ## 21. Spôsoby implementácie fuzzy kognitívnych máp a manuálny postup návrhu.
+Fuzzy kognitívne mapy (FKM) sú nástrojom pre modelovanie a analýzu vzťahov medzi premennými alebo konceptmi v rámci komplexných systémov.
+#### Spôsoby implementácie fuzzy kognitívnych máp
+![Lectures - 2023_Страница_130](https://github.com/girgibon/fuzzy-logic/assets/93397589/440d5867-dad4-4e92-8711-f5fa331916dd)
+![Lectures - 2023_Страница_131](https://github.com/girgibon/fuzzy-logic/assets/93397589/a6a1850d-0ea1-43ae-803d-e4770ecde02e)
+#### Manuálny postup návrhu
+![Lectures - 2023_Страница_132](https://github.com/girgibon/fuzzy-logic/assets/93397589/e6f990e5-7175-42e2-b1be-26ce750d7eb7)
+
 - ## 22. Implikátory, ich vzťah k vlastnej inferencii a základné typy implikátorov.
+![Lectures - 2023_Страница_137](https://github.com/girgibon/fuzzy-logic/assets/93397589/43aa7ef2-0721-4a8d-a54a-045dab7ba349)
+![Lectures - 2023_Страница_138](https://github.com/girgibon/fuzzy-logic/assets/93397589/98d45c38-45d6-4e40-b6ca-7a08f93fdc6c)
+![Lectures - 2023_Страница_139](https://github.com/girgibon/fuzzy-logic/assets/93397589/21d75d50-492c-4649-860b-0d42037243e1)
+#### Implikátory
+Implikátory sú logické operátory, ktoré sa používajú na vyjadrenie implikácie alebo odvodzovacieho pravidla medzi dvoma výrokmi. Určujú, ako je jedno tvrdenie spojené s druhým a aký je vzťah medzi nimi.
+
+Vzťah implikácie sa často vyjadruje pomocou vety "ak...potom". Implikátory majú dôležitú úlohu v matematickej logike, formálnych jazykoch, programovaní a automatizovanom odvodzovaní.
+#### Vzťah k vlastnej inferencii
+Vlastná inferencia je schopnosť implikátora inferovať (odvodiť) nový výrok alebo tvrdenie na základe existujúcich výrokov. Ak implikátor disponuje vlastnou inferenciou, znamená to, že z pravdivosti vstupných výrokov je možné vyvodiť pravdivosť výstupného výroku.
+#### Základné typy implikátorov.
+![Lectures - 2023_Страница_140](https://github.com/girgibon/fuzzy-logic/assets/93397589/22d61d59-0b6a-4f0c-9a1c-2da4c018ee33)
+![Lectures - 2023_Страница_141](https://github.com/girgibon/fuzzy-logic/assets/93397589/05817b25-bde7-48e1-af7b-6c9c01c92c8a)
+
+____
+
 - ## 23. Metódy modus ponens a modus tollens a ich všeobecná forma.
+#### Modus ponens
+![Lectures - 2023_Страница_142](https://github.com/girgibon/fuzzy-logic/assets/93397589/36cb2a58-19d3-41ab-bf77-19b378f7411a)
+![Lectures - 2023_Страница_142](https://github.com/girgibon/fuzzy-logic/assets/93397589/a3cd5456-79d8-4ec1-9f76-3712fdd801d3)
+![Lectures - 2023_Страница_143](https://github.com/girgibon/fuzzy-logic/assets/93397589/f7dc1af2-06a0-4dcd-a183-a8c60b7566bb)
+![Lectures - 2023_Страница_144](https://github.com/girgibon/fuzzy-logic/assets/93397589/71bd4223-a2e1-4a07-83f9-d70ee3f0c2c5)
+Modus ponens je princíp logického odvodzovania, ktorý umožňuje odvodiť nový výrok na základe predchádzajúceho výroku a jeho implikácie (podmienky). Tento princíp je založený na nasledujúcej štruktúre:
+Ak platí "Ak A, potom B" a platí A, potom platí B.
+#### Modus tollens
+![Lectures - 2023_Страница_145](https://github.com/girgibon/fuzzy-logic/assets/93397589/209cce4a-fa0d-4729-80fb-a7005a1fae31)
+![Lectures - 2023_Страница_146](https://github.com/girgibon/fuzzy-logic/assets/93397589/2e85dd71-52b4-4ac7-9323-184a56f2f741)
+![Lectures - 2023_Страница_147](https://github.com/girgibon/fuzzy-logic/assets/93397589/b36deb35-a66a-4765-a869-44f8492550c1)
+
+Modus tollens je princíp logického odvodzovania, ktorý umožňuje odvodiť negáciu predchádzajúceho výroku na základe jeho implikácie (podmienky) a negácie dôsledku. Tento princíp je založený na nasledujúcej štruktúre:
+Ak platí "Ak A, potom B" a platí negácia B, potom platí negácia A.
+
+____
+
 - ## 24. Relácie podobnosti a metóda piatich najbližších susedov.
 #### Relácie podobnosti
 ![Lectures - 2023_Страница_148](https://github.com/girgibon/fuzzy-logic/assets/93397589/0fdb31ef-bb52-4b7d-9b6a-81a2aa9bf0c7)
