@@ -621,6 +621,8 @@ Fuzzy kognitívne mapy (FKM) sú nástrojom pre modelovanie a analýzu vzťahov 
 #### Manuálny postup návrhu
 ![Lectures - 2023_Страница_132](https://github.com/girgibon/fuzzy-logic/assets/93397589/e6f990e5-7175-42e2-b1be-26ce750d7eb7)
 
+____
+
 - ## 22. Implikátory, ich vzťah k vlastnej inferencii a základné typy implikátorov.
 ![Lectures - 2023_Страница_137](https://github.com/girgibon/fuzzy-logic/assets/93397589/43aa7ef2-0721-4a8d-a54a-045dab7ba349)
 ![Lectures - 2023_Страница_138](https://github.com/girgibon/fuzzy-logic/assets/93397589/98d45c38-45d6-4e40-b6ca-7a08f93fdc6c)
